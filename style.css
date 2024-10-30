@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&family=Updock&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+}
+
+:root{
+    --branco: #ffe5ecff;
+    --bege: #ffc2d1ff;
+    --rosa-claro: #ffb3c6ff;
+    --rosa-pastel: #ff8fabff;
+    --rose: #fb6f92ff;
+    --fonte-titulo: "Updock", cursive;
+    --fonte-texto: "Qwitcher Grypen", cursive;
+}
+
+body{
+    background-color: var(--branco);
+    font-family: var(--fonte-texto);
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--rosa-claro);
+}
+
+.cabecalho-logo{
+    width: 18%;
+    border-radius: 100%;
+    padding: lem;
+}
+    
+.cabecalho-link{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 3em;
+    margin-right: lem;
+}
+
+.cabecalho-link:hover{
+    color: var(--branco);
+    font-size: 1.9em;
+    transition: 0.3s;
+}
+
+.principal-capa{
+    background-color: var(--bege);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1.5em;
+
+
+}
+.principal-capa_titulo{
+    font-size: 3em;
+    font-family: var(--fonte-titulo);
+}
+.principal-capa_texto{
+    font-size: 3em;
+}
+.principal-capa_imagem{
+    width: 30%;
+    border-radius: 100%;
+}
+
+.principal-capa_combotao{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+}  
+
+.principal-capa_botao{
+    background-color: var(--rose);
+    text-decoration: none;
+    padding: 1.3em;
+    color: var(--branco);
+    margin-top: 2em;
+    border-radius: 10px;
+    font-size: 1.8em;
+}
